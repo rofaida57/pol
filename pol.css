@@ -6,11 +6,25 @@ body{
 line-height: 27px;
 background-color: rgb(255, 243, 226);
 }
-.table{
-    height: 150px;
-    padding: 10px;
+.tab{
+    border: 2px black solid;
+    margin: 15px;
+    font-size: 18px;
+    text-align: left;
+    width: 90%;
 }
-h2{
+
+th ,td{
+    border: 2px black solid;
+    padding: 8px;
+}
+th {
+    background-color: #f4f4f4;
+}
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+h1{
    
     height: 30px;
     width: auto;
@@ -40,9 +54,27 @@ a:hover{
     color: rgb(14, 63, 121);
     background-color: rgba(255, 240, 152, 0.514);
 }
+a:visited{
+ color: black;
+}
 .in{
     margin: 15px;
     font-size: 17px;
-  
 }
-
+.ins {
+    width: 177px;
+}
+::selection{
+    background-color: rgb(255, 215, 162);
+}
+@media screen and(max-width:400px){
+    .vi{
+        width: 200px;
+    }
+    h1{
+        font-size: 30px;
+    }
+}
+@media screen and(min-width:401px)and(max-width:800px){
+    
+}
